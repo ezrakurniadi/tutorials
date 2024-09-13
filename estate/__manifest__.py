@@ -3,5 +3,7 @@
     'version': '1.0',
     'depends': ['base'],
     'author': "Ezra",
-    'category': 'Category'    
+    'category': 'Sales/CRM',
+    'installable': True,
+    'application': True,    
 }
