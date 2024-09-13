@@ -1,8 +1,7 @@
 {
     'name': "Estate",
-    'depends': [
-        'base_setup'
-    ],
-    'installable': True,
-    'application': True,
+    'version': '1.0',
+    'depends': ['base'],
+    'author': "Ezra",
+    'category': 'Category'    
 }
