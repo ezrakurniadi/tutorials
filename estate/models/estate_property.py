@@ -9,12 +9,12 @@ class EstateProperty(models.Model):
     _description = "Estate Property Tutorial"
     _order = "sequence"
 
-    name = fields.Char()
+    name = fields.Char(required=True)
     description = fields.Text()
     postcode = fields.Char()
     date_availability = fields.Date()
     expected_price = fields.Float()
-    selling_price = fields.Float()
+    selling_price = fields.Float(required=True)
     bedrooms = fields.Integer()
     living_area = fields.Integer()
     facades = fields.Integer()
